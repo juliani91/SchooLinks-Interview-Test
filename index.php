@@ -50,7 +50,7 @@ body{
 	}
 	#name-submit{
 		padding: 10px;
-		
+
 	}
 </style>
 
@@ -91,7 +91,7 @@ body{
 
 </body>
 <script>
-	
+	// This functions passes the variables from the 3 inputs to the insert.php
 	$('input#name-submit').on('click', function(){
 		var xmlhttp;
 		xmlhttp = new XMLHttpRequest();
